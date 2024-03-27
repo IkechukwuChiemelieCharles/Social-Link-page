@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 0%);
+}
+.container {
+  margin: 100px auto;
+  width: 300px;
+  height: 500px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding-top: 40px;
+}
+.container img {
+  border-radius: 50%;
+  margin: 5% 40%;
+  width: 50px;
+}
+h2 {
+  color: white;
+  margin: 0 27%;
+  font-size: larger;
+}
+h4 {
+  margin: 5px 25%;
+  color: hsl(75, 94%, 57%);
+  font-size: smaller;
+  font-weight: bold;
+}
+p {
+  color: rgba(100, 100, 100, 0.9);
+  margin: 5% 15%;
+  font-size: small;
+}
+.link-cont {
+  display: grid;
+}
+/* a {
+  margin: 100px 10px;
+  width: 150px;
+  height: 40px;
+  background-color: hsl(0, 82%, 50%);
+  padding: 10px 100px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  color: white;
+} */
+.github {
+  margin-bottom: 50px;
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 70px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 100px;
+}
+
+.frontend {
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 70px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+  padding: 10px 70px;
+}
+.linkedin {
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 90px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+  padding: 10px 100px;
+}
+.twitter {
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 100px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+  padding: 10px 100px;
+}
+.instagram {
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px 90px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+
+  padding: 10px 100px;
+}
+.a {
+}
+a:hover {
+  background-color: greenyellow;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: hsl(0, 0%, 8%);
+    padding: 5px 10px;
+  }
+  .container {
+    margin: 90px auto;
+    width: 300px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+  }
+}
