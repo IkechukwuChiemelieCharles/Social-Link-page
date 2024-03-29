@@ -117,12 +117,12 @@ a:hover {
 }
 @media screen and (max-width: 600px) {
   body {
-    background-color: hsl(68, 52%, 50%);
+    background-color: hsl(207, 99%, 50%);
     padding: 5px 10px;
   }
   .container {
     margin: 90px auto;
-    width: 400px;
+    width: 600px;
     height: 500px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
