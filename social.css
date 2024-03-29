@@ -148,36 +148,3 @@ a:hover {
     margin-left: 110px;
   }
 }
-@media screen and (max-width: 414px) {
-  body {
-    background-color: hsl(120, 79%, 46%);
-    padding: 5px 10px;
-  }
-  .container {
-    margin: 90px auto;
-    width: 350px;
-    height: 500px;
-    background-color: hsl(0, 0%, 12%);
-    border-radius: 10px;
-  }
-  h2 {
-    color: white;
-    margin: 0 27%;
-    font-size: larger;
-  }
-  .link-cont {
-    margin-left: 30px;
-  }
-  .container img {
-    margin-left: 150px;
-  }
-  .container h2 {
-    margin-left: 120px;
-  }
-  .container h4 {
-    margin-left: 110px;
-  }
-  .container p {
-    margin-left: 80px;
-  }
-}
