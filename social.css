@@ -117,12 +117,12 @@ a:hover {
 }
 @media screen and (max-width: 600px) {
   body {
-    background-color: hsl(207, 99%, 50%);
+    background-color: hsl(59, 99%, 50%);
     padding: 5px 10px;
   }
   .container {
     margin: 90px auto;
-    width: 600px;
+    width: 400px;
     height: 500px;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
@@ -131,5 +131,20 @@ a:hover {
     color: white;
     margin: 0 27%;
     font-size: larger;
+  }
+  .link-cont {
+    margin-left: 60px;
+  }
+  .container img {
+    margin-left: 180px;
+  }
+  .container h2 {
+    margin-left: 140px;
+  }
+  .container h4 {
+    margin-left: 130px;
+  }
+  .container p {
+    margin-left: 110px;
   }
 }
